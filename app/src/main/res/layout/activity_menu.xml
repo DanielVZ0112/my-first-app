@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginTop="48dp"
+    android:background="@color/background_app"
+    android:orientation="vertical"
+    tools:context=".MenuActivity2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:text="@string/functionallity_list"
+        android:textColor="@color/background_component"
+        android:textAllCaps="true"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnSaludar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/rounded_button"
+        android:text="@string/saludarapp"
+        android:textColor="@color/title_text"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnIMCApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/rounded_button"
+        android:text="@string/imc_app"
+        android:textColor="@color/title_text"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnToDo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/rounded_button"
+        android:text="@string/to_do_app"
+        android:textColor="@color/title_text"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnHoroscopo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/rounded_button"
+        android:text="@string/horoscopo_app"
+        android:textColor="@color/title_text"
+        android:textSize="20sp" />
+
+</LinearLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_launcher_foreground"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HelloAndroidStudio"
+        tools:targetApi="31">
+        <activity
+            android:name=".horoscopoapp.ui.home.HoroscApp"
+            android:exported="false" />
+        <activity
+            android:name=".HoroscApp"
+            android:exported="false" />
+        <activity
+            android:name=".todoapp.ToDoActivity"
+            android:exported="false"
+            android:label="@string/title_activity_to_do"
+            android:theme="@style/Base.Theme.TODOApp" />
+        <activity
+            android:name=".imccalculator.ResultimcActivity"
+            android:exported="false"
+            android:label="@string/title_activity_resultimc"
+            android:theme="@style/Theme.HelloAndroidStudio" />
+        <activity
+            android:name=".imccalculator.IMCCalculatorActivity"
+            android:exported="false"
+            android:label="@string/title_activity_imccalculator"
+            android:theme="@style/Theme.HelloAndroidStudio" />
+        <activity
+            android:name=".MenuActivity2"
+            android:exported="true"
+            android:label="@string/title_activity_menu2"
+            android:theme="@style/Theme.HelloAndroidStudio">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> <!-- MainActivity configurada como la actividad de lanzamiento -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" /> <!-- Definición de FirstAppActivity sin el intent-filter de MAIN y LAUNCHER -->
+        <activity
+            android:name=".firstapp.FirstAppActivity"
+            android:exported="true"
+            android:label="@string/title_activity_first_app"
+            android:theme="@style/Theme.HelloAndroidStudio" />
+    </application>
+
+</manifest>

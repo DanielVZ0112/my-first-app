@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Colores base -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <!-- Colores para el IMC -->
+    <color name="background_component">#FF5A1F24</color>
+    <color name="background_component_selected">#FFA52A2A</color>
+    <color name="background_app">#FFF8F8F8</color>
+    <color name="background_button">#FF7B2B34</color>
+    <color name="title_text">#FFFFFFFF</color>
+    <color name="darker_background_button">#FF5A1F24</color>
+    <!-- Colores para el IMC Resultado -->
+    <color name="underweight">#FFFFC107</color>
+    <color name="normal">#FF4CAF50</color>
+    <color name="overweight">#FFFF5722</color>
+    <color name="obesity">#FFD71A0C</color>
+    <!-- Colores para el todo -->
+    <color name="background_card">#102A63</color>
+    <color name="background_disabled">#B0B0B0</color>
+    <color name="background_app_todo">#3D5B99</color>
+    <color name="subtitle_text">#7A7A7A</color>
+    <color name="accent">#FF4081</color>
+
+    <color name="business_category">#FB8C00</color>
+    <color name="personal_category">#4DD0E1</color>
+    <color name="other_category">#66BB6A</color>
+    <!-- Colores para el horoscopo -->
+    <color name="primary">#1f1f1f</color>
+    <color name="primaryDark">#181818</color>
+    <color name="secondary">#ee9361</color>
+    <color name="accent_horoscopo">#FFFFFF</color>
+    <color name="gold">#ffe78f</color>
+    <color name="silver">#c0c0c0</color>
+    <color name="bronze">#cd7f32</color>
+    <color name="black_alpha">#98000000</color>
+
+    <color name="red_error">#FF0000</color>
+
+
+
+
+
+
+
+</resources>
