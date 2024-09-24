@@ -7,4 +7,6 @@
     android:layout_height="match_parent"
     tools:context=".horoscopoapp.ui.home.HoroscApp">
 
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
