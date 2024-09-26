@@ -20,9 +20,6 @@
             android:name=".horoscopoapp.ui.home.HoroscApp"
             android:exported="false" />
         <activity
-            android:name=".HoroscApp"
-            android:exported="false" />
-        <activity
             android:name=".todoapp.ToDoActivity"
             android:exported="false"
             android:label="@string/title_activity_to_do"

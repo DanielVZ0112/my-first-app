@@ -16,7 +16,7 @@ class HoroscopeFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        _binding = FragmentHoroscopeBinding.inflate(layoutInflater, container, false)
+        _binding = FragmentHoroscopeBinding.inflate(inflater, container, false)
         return binding.root
     }
 }
