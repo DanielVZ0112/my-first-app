@@ -7,7 +7,9 @@ import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.setupWithNavController
 import com.example.helloandroidstudio.R
 import com.example.helloandroidstudio.databinding.ActivityHoroscAppBinding
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class HoroscApp : AppCompatActivity() {
 
     private lateinit var binding: ActivityHoroscAppBinding
